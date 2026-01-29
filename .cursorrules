@@ -1,0 +1,83 @@
+# Code Guidelines for BVC.next
+
+## General Principles
+
+- Write clean, maintainable, and well-documented code
+- Follow TypeScript best practices with proper typing
+- Use functional components with TypeScript
+- Prefer composition over inheritance
+- Keep components small and focused on a single responsibility
+
+## TypeScript
+
+- Always use TypeScript for new files
+- Avoid `any` type - use proper types or `unknown` when necessary
+- Use type inference where possible, but be explicit for function parameters and return types
+- Prefer interfaces for object shapes, types for unions/intersections
+- Use `Readonly<>` for props when appropriate
+
+## React/Next.js
+
+- Use functional components with a `const Name () => {}` and `export default Name`
+- Use Server Components by default (Next.js App Router)
+- Only use Client Components (`'use client'`) when necessary (interactivity, browser APIs)
+  – Always add a className props to components
+
+- Prefer async Server Components for data fetching
+- Use Next.js Image component for images
+- Use Next.js Link component for internal navigation
+- Keep components in separate files when they're reusable or complex
+  – When creating a new component always define a (`type`) called Props and pass it on to the component
+  – Extract the defined (`Props`) from (`props`) in groups `const {propName} = props`
+
+## Styling
+
+- Use Tailwind CSS utility classes for styling
+- Prefer Tailwind classes over custom CSS when possible
+- Use CSS variables for theme values (colors, spacing, etc.)
+- Follow mobile-first responsive design approach
+- Use semantic HTML elements
+
+## File Organization
+
+- Place components in appropriate directories (components/, app/, etc.)
+- Use kamelCase for file names (e.g., `userProfile.tsx`)
+  – When adding a component add it to a folder with the same name
+- Co-locate related files (components, styles, tests) when they're tightly coupled
+- Keep the `app/` directory structure clean and organized
+- For components add subfolders for different types of components `globals`, `shared` and `UI Put the components in the approbiate folder
+
+## Code Style
+
+- Use double quotes for strings (consistent with project)
+- Use semicolons at the end of statements
+- Use 2 spaces for indentation
+- Maximum line length: 100 characters
+- Use meaningful variable and function names
+- Prefer const over let, avoid var
+
+## Imports
+
+- Group imports: external packages, then internal modules
+- Use absolute imports with `@/` alias when configured
+- Remove unused imports
+
+## Error Handling
+
+- Handle errors gracefully with proper error boundaries
+- Use try-catch for async operations
+- Provide meaningful error messages
+
+## Performance
+
+- Use React.memo() for expensive components that re-render frequently
+- Use useMemo() and useCallback() judiciously (not prematurely)
+- Optimize images with Next.js Image component
+- Lazy load components when appropriate
+
+## Accessibility
+
+- Use semantic HTML elements
+- Include proper ARIA labels when needed
+- Ensure keyboard navigation works
+- Maintain proper color contrast ratios

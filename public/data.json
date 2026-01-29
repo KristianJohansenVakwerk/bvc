@@ -1,0 +1,151 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "data": [
+        "<p>Bornholm Vinegar Company er et mikro-eddikebryggeri, der fremstiller håndværkseddiker i små batch med udgangspunkt i Bornholms råvarer og de skiftende årstider.</p><p>Vi forener klassiske metoder og nytænkning for at give hver batch tydelig karakter og ren aromatisk syre. Alle vores eddiker udvikles tålmodigt med fokus på balance og kompleksitet.</p>"
+      ]
+    },
+    {
+      "id": "contact",
+      "data": [
+        [
+          {
+            "title": "Stenbrudsvej 35, port 1, 3730 Nexø",
+            "url": ""
+          },
+          {
+            "title": "info@bornholmvinegar.co",
+            "url": "mailto:info@bornholmvinegar.co"
+          }
+        ],
+        [
+          {
+            "title": "+45 40805020",
+            "url": "tel:+4540805020"
+          },
+          {
+            "title": "CVR.: 45147746",
+            "url": ""
+          },
+          {
+            "title": "Tilmeld dig vores nyhedsbrev her",
+            "url": ""
+          }
+        ]
+      ]
+    },
+    {
+      "id": "products",
+      "data": [
+        {
+          "name": "Pærecidereddike",
+          "text": "Vores pærecidereddike er lavet på Conference- eller Charneux-pærer. Pærerne mostes og gæres til pærecider på tank. Anden fermentering og lagring (>2 år) sker på fade, der tidligere har indeholdt Calvados. Ideel til vinaigrette, drinks og hjemmelavet gastrik.",
+          "imageSrc": "/media/BVC_Pærecidereddike.webp"
+        },
+        {
+          "name": "Gastrik",
+          "text": "Vores prisvindende gastrik er en blanding af æblecidereddike, blommesaft, slåenbær og karamel, som giver en kompleks syre med en smule tørhed fra de tanninrige slåenbær. Et lokalt alternativ til klassisk balsamico. God til vinaigrette, marinader og som smagsgiver i saucer.",
+          "imageSrc": "/media/BVC_Gastrik.webp"
+        },
+        {
+          "name": "Hybenroseeddike",
+          "text": "Vores pærecidereddike infuseret med masser af hybenroser. Intet andet. Dufter som en varm sommeraften langs kysten på Bornholm. Særdeles velegnet til sarte serveringer som rå østers, ceviche og salater, men også fantastisk i vinaigrette og drinks.",
+          "imageSrc": "/media/BVC_Hybenroseeddike.webp"
+        },
+        {
+          "name": "Æblecidereddike",
+          "text": "Vores æblecidereddike er fremstillet på danske æbler. Æblerne presses til æblemost og spontangæres på tank. Anden fermentering samt lagring (>3 år) foregår på klassiske barriques, hvilket afrunder smagen og tilføjer dybde. Denne eddike er perfekt til vinaigrette, marinader, varme retter og syltning.",
+          "imageSrc": "/media/BVC_Æblecidereddike.webp"
+        },
+        {
+          "name": "Hyldeblomsteddike",
+          "text": "Denne eddike er fremstillet af hyldeblomstvin, som efter anden gæring på tank infuseres med friske hyldeblomster fra den bornholmske natur. Resultatet er en intens hyldeblomsteddike med masser af sommerlig aroma. Brug den i stedet for citronsaft – i mayonnaise, vinaigrette, limonade og desserter.",
+          "imageSrc": "/media/BVC_Hyldeblomsteddike.webp"
+        },
+        {
+          "name": "Kombueddike",
+          "text": "Denne eddike er baseret på vores pærecidereddike, som infuseres med ristet, japansk kombutang. Dette resulterer i en rig, umamifyldt eddike med masser af aroma, karakter og kompleksitet. Fantastisk i asiatiske retter, til fisk og skaldyr samt i vinaigrette.",
+          "imageSrc": "/media/BVC_Kombueddike.webp"
+        },
+        {
+          "name": "Estragoneddike — BVC × Flor",
+          "text": "Vores klassiske pærecidereddike infuseret med frisk bornholmsk estragon. Klar og aromatisk med en let sødlig estragonsmag. Særligt velegnet til retter med fedme, friske grøntsager og klassisk bearnaise. Denne specialeddike er udviklet i samarbejde med Flor Deli i Svaneke.",
+          "imageSrc": "/media/BVC_Estragoneddike.webp"
+        },
+        {
+          "name": "Krondildeddike — BVC × Flor",
+          "text": "Vores klassiske pærecidereddike infuseret med nyudsprunget krondild. Frisk og floral med en let anisagtig dildnote. Velegnet til fisk, skaldyr og cremede saucer. Denne specialeddike er udviklet i samarbejde med Flor Deli i Svaneke.",
+          "imageSrc": "/media/BVC_Krondildeddike.webp"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "data": {
+        "text": "<p>Besøg vores Instagram for mere inspiration og opskrifter →</p>",
+        "link": "https://www.instagram.com/bornholmvinegarco/"
+      }
+    },
+
+    {
+      "id": "productInformation",
+      "data": [
+        {
+          "title": "Produkt information",
+          "text": ""
+        },
+        {
+          "title": "Lokale råvarer",
+          "text": "Vi bruger primært dansk frugt fra små, passionerede lokale avlere som base for alle vores eddiker. I vores infuserede eddiker bruger vi bær, blomster og frugt fra den vilde bornholmske natur. Alle råvarer forarbejdes med håndværksmæssig omhu. Gennem nænsom fermentering og omhyggelig udvikling skaber vi den karakteristiske profil i vores eddiker."
+        },
+        {
+          "title": "Bæredygtighed",
+          "text": "Vi reducerer madspild ved også at anvende frugt, most og cider, som ikke kan sælges i deres oprindelige form, ved forædle dem til eddike af høj kvalitet. Denne cirkulære tilgang bevarer råvarernes værdi og mindsker ressourcespild."
+        },
+        {
+          "title": "Levende Eddike",
+          "text": "Vores eddiker er upasteuriserede – altså \"levende\" – hvilket betyder, at den naturlige mikroflora bevares gennem hele fermenteringen. Det giver aktive kulturer, organisk syre og en mere kompleks og dynamisk smagsprofil end varmebehandlede eddiker. Produktet kan fortsætte med at udvikle sig under opbevaring, og både klarhed, bundfald og aroma kan ændre sig over tid."
+        }
+      ]
+    },
+    {
+      "id": "mood",
+      "data": ["/media/mood_1.jpg", "/media/modd_2.jpg", "/media/mood_3.jpg"]
+    },
+    {
+      "id": "retailers",
+      "data": [
+        {
+          "location": "Bornholm:",
+          "stores": [
+            "Årsdale Røgeri",
+            "Norresan, Gudhjem",
+            "Stigs Oliven, Rønne",
+            "Flor, Svaneke",
+            "Hjørnet, Svaneke",
+            "Dram & Dialekt, Svaneke",
+            "Fru Due, Snogebæk",
+            "Strandhotellet, Sandvig"
+          ]
+        },
+        {
+          "location": "København:",
+          "stores": ["Nørrebro Kolonial", "Blomst & Bi", "Refillery Copenhagen"]
+        },
+        {
+          "location": "Sjælland:",
+          "stores": ["Elkjær-Posch, Rørvig"]
+        },
+        {
+          "location": "Øvrige:",
+          "stores": [
+            "<a href=\"https://enlillebidafbornholm.dk\" target=\"_blank\">enlillebidafbornholm.dk</a>",
+            "<a href=\"https://bornholmbornholmbornholm.dk\" target=\"_blank\">bornholmbornholmbornholm.dk</a>",
+            "<br/>B2B: <br/>Ingwersen"
+          ]
+        }
+      ]
+    }
+  ]
+}

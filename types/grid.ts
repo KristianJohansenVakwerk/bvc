@@ -1,0 +1,177 @@
+export const COLS_CLASSNAME = {
+  1: "grid-cols-1",
+  2: "grid-cols-2",
+  3: "grid-cols-3",
+  4: "grid-cols-4",
+  5: "grid-cols-5",
+  6: "grid-cols-6",
+  7: "grid-cols-7",
+  8: "grid-cols-8",
+  9: "grid-cols-9",
+  10: "grid-cols-10",
+  11: "grid-cols-11",
+  12: "grid-cols-12",
+} as const;
+
+export const GAP_CLASSNAME = {
+  0: "gap-0",
+  1: "gap-1",
+  2: "gap-2",
+  2.5: "gap-2.5",
+  3: "gap-3",
+  4: "gap-4",
+  5: "gap-5",
+  6: "gap-6",
+  8: "gap-8",
+  10: "gap-10",
+  12: "gap-12",
+  16: "gap-16",
+  20: "gap-20",
+  24: "gap-24",
+  32: "gap-32",
+  40: "gap-40",
+  48: "gap-48",
+  56: "gap-56",
+  64: "gap-64",
+} as const;
+
+export const COLSPAN_CLASSNAME = {
+  1: "col-span-1",
+  2: "col-span-2",
+  3: "col-span-3",
+  4: "col-span-4",
+  5: "col-span-5",
+  6: "col-span-6",
+  7: "col-span-7",
+  8: "col-span-8",
+  9: "col-span-9",
+  10: "col-span-10",
+  11: "col-span-11",
+  12: "col-span-12",
+} as const;
+
+export const RESPONSIVE_COLS_CLASSNAME = {
+  1: {
+    mobile: "grid-cols-1",
+    tablet: "md:grid-cols-1",
+    desktop: "lg:grid-cols-1",
+  },
+  2: {
+    mobile: "grid-cols-2",
+    tablet: "md:grid-cols-2",
+    desktop: "lg:grid-cols-2",
+  },
+  3: {
+    mobile: "grid-cols-3",
+    tablet: "md:grid-cols-3",
+    desktop: "lg:grid-cols-3",
+  },
+  4: {
+    mobile: "grid-cols-4",
+    tablet: "md:grid-cols-4",
+    desktop: "lg:grid-cols-4",
+  },
+  5: {
+    mobile: "grid-cols-5",
+    tablet: "md:grid-cols-5",
+    desktop: "lg:grid-cols-5",
+  },
+  6: {
+    mobile: "grid-cols-6",
+    tablet: "md:grid-cols-6",
+    desktop: "lg:grid-cols-6",
+  },
+  7: {
+    mobile: "grid-cols-7",
+    tablet: "md:grid-cols-7",
+    desktop: "lg:grid-cols-7",
+  },
+  8: {
+    mobile: "grid-cols-8",
+    tablet: "md:grid-cols-8",
+    desktop: "lg:grid-cols-8",
+  },
+  9: {
+    mobile: "grid-cols-9",
+    tablet: "md:grid-cols-9",
+    desktop: "lg:grid-cols-9",
+  },
+  10: {
+    mobile: "grid-cols-10",
+    tablet: "md:grid-cols-10",
+    desktop: "lg:grid-cols-10",
+  },
+  11: {
+    mobile: "grid-cols-11",
+    tablet: "md:grid-cols-11",
+    desktop: "lg:grid-cols-11",
+  },
+  12: {
+    mobile: "grid-cols-12",
+    tablet: "md:grid-cols-12",
+    desktop: "lg:grid-cols-12",
+  },
+} as const;
+
+export const RESPONSIVE_COLSPAN_CLASSNAME = {
+  1: {
+    mobile: "col-span-1",
+    tablet: "md:col-span-1",
+    desktop: "lg:col-span-1",
+  },
+  2: {
+    mobile: "col-span-2",
+    tablet: "md:col-span-2",
+    desktop: "lg:col-span-2",
+  },
+  3: {
+    mobile: "col-span-3",
+    tablet: "md:col-span-3",
+    desktop: "lg:col-span-3",
+  },
+  4: {
+    mobile: "col-span-4",
+    tablet: "md:col-span-4",
+    desktop: "lg:col-span-4",
+  },
+  5: {
+    mobile: "col-span-5",
+    tablet: "md:col-span-5",
+    desktop: "lg:col-span-5",
+  },
+  6: {
+    mobile: "col-span-6",
+    tablet: "md:col-span-6",
+    desktop: "lg:col-span-6",
+  },
+  7: {
+    mobile: "col-span-7",
+    tablet: "md:col-span-7",
+    desktop: "lg:col-span-7",
+  },
+  8: {
+    mobile: "col-span-8",
+    tablet: "md:col-span-8",
+    desktop: "lg:col-span-8",
+  },
+  9: {
+    mobile: "col-span-9",
+    tablet: "md:col-span-9",
+    desktop: "lg:col-span-9",
+  },
+  10: {
+    mobile: "col-span-10",
+    tablet: "md:col-span-10",
+    desktop: "lg:col-span-10",
+  },
+  11: {
+    mobile: "col-span-11",
+    tablet: "md:col-span-11",
+    desktop: "lg:col-span-11",
+  },
+  12: {
+    mobile: "col-span-12",
+    tablet: "md:col-span-12",
+    desktop: "lg:col-span-12",
+  },
+} as const;
