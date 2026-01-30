@@ -8,6 +8,8 @@ type Props = {
 const ProductsSection = (props: Props) => {
   const { data } = props;
 
+  console.log("dignd gon");
+
   return (
     <Section className="w-full">
       <Grid
