@@ -2,6 +2,7 @@ export { default as Grid } from "./shared/grid/grid";
 export { default as GridItem } from "./shared/gridItem/gridItem";
 export { default as Section } from "./shared/section/section";
 export { default as SectionRenderer } from "./shared/sectionRenderer/sectionRenderer";
+export { default as Logo } from "./shared/logo/logo";
 export { default as Image } from "./UI/image/image";
 export { default as Text } from "./UI/text/text";
 export { default as Box } from "./UI/box/box";
