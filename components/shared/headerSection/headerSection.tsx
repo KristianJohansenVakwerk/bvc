@@ -1,3 +1,4 @@
+"use client";
 import { Grid, GridItem, Image, Section, Text } from "@/components";
 
 type Props = {
@@ -8,20 +9,45 @@ const HeaderSection = (props: Props) => {
   const { data } = props;
 
   return (
-    <Section>
-      <Grid cols={1} colsTablet={2} colsDesktop={2} gap={2.5}>
-        <GridItem colspan={1} className="max-h-[390px]">
+    <Section className="w-full  px-2 md:px-0">
+      <Grid
+        cols={4}
+        colsTablet={4}
+        colsDesktop={8}
+        gap={2.5}
+        className="items-start justify-start"
+      >
+        <GridItem
+          colspan={4}
+          colspanDesktop={4}
+          colspanXl={3}
+          colspan4xl={2}
+          className="order-2 lg:order-1 "
+        >
+          <Text text={data[0]} typeface="sans" size="base" />
+        </GridItem>
+
+        <GridItem
+          colspan={4}
+          colspanDesktop={2}
+          colspanXl={3}
+          colspan4xl={4}
+          className="hidden lg:flex items-center justify-center lg:order-2  "
+        >
+          {null}
+        </GridItem>
+
+        <GridItem
+          colspan={4}
+          colspanDesktop={2}
+          className="order-1 lg:order-3 flex items-center justify-center aspect-[16/9] lg:aspect-[390/400]"
+        >
           <Image
             src="/media/logo.svg"
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain object-center  mx-auto"
             alt="Logo"
           />
         </GridItem>
-        {data.map((htmlContent, columnIndex) => (
-          <GridItem key={columnIndex} colspan={1}>
-            <Text text={htmlContent} typeface="sans" size="2xl" />
-          </GridItem>
-        ))}
       </Grid>
     </Section>
   );

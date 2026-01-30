@@ -11,7 +11,7 @@ const ProductInformationSection = (props: Props) => {
   const { data } = props;
 
   return (
-    <Section>
+    <Section className="px-2 md:px-0">
       <Grid
         cols={1}
         colsTablet={4}

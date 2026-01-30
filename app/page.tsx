@@ -10,7 +10,7 @@ export default function Home() {
   );
 
   return (
-    <Box className="flex flex-col min-h-screen items-start justify-start p-4 gap-5">
+    <Box className="flex flex-col min-h-screen items-start justify-start py-2 p-0 md:p-4 gap-4  md:gap-5">
       {typedData.sections.map((section, index) => (
         <SectionRenderer key={index} section={section} />
       ))}

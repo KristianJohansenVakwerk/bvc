@@ -10,7 +10,13 @@ const ProductsSection = (props: Props) => {
 
   return (
     <Section className="w-full">
-      <Grid cols={1} colsTablet={2} colsDesktop={4} gap={2.5}>
+      <Grid
+        cols={1}
+        colsTablet={2}
+        colsDesktop={4}
+        gap={2.5}
+        className="grid-cols-[repeat(12,minmax(75vw,1fr))] md:grid-cols-2 lg:grid-cols-4 overflow-x-auto md:overflow-visible w-full scrollbar-hide pl-2 md:pl-0"
+      >
         {data.map((product, index) => (
           <GridItem key={index} colspan={1} className="flex flex-col gap-2.5">
             <Image

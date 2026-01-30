@@ -8,7 +8,7 @@ const MoodSection = (props: Props) => {
   const { data } = props;
 
   return (
-    <Section className="w-full">
+    <Section className="w-full px-2 md:px-0">
       <Grid cols={1} colsTablet={1} colsDesktop={3} gap={0}>
         {data.map((src, index) => (
           <GridItem key={index} colspan={1}>

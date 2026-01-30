@@ -8,10 +8,18 @@ type Props = {
   size?: keyof typeof TEXT_SIZE_CLASSNAME;
   as?: string;
   className?: string;
+  ref?: React.RefObject<HTMLDivElement | null>;
 };
 
 const Text = (props: Props) => {
-  const { text, typeface = "sans", size = "base", as = "p", className } = props;
+  const {
+    text,
+    typeface = "sans",
+    size = "base",
+    as = "p",
+    className,
+    ref = null,
+  } = props;
 
   const typefaceClassName = TYPEFACE_CLASSNAME[typeface];
   const textSizeClassName = TEXT_SIZE_CLASSNAME[size];
@@ -33,6 +41,7 @@ const Text = (props: Props) => {
         as="div"
         className={classes}
         dangerouslySetInnerHTML={{ __html: text }}
+        ref={ref ?? undefined}
       >
         {null}
       </Box>
