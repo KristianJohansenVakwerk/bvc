@@ -25,11 +25,7 @@ const ProductInformationSection = (props: Props) => {
             colspan={1}
             className="border-t-[0.5px] border-r-[0.5px] border-black  min-h-[260px]"
           >
-            <Box
-              className={clsx("p-1", {
-                "border-b-[0.5px] border-black": index !== 0,
-              })}
-            >
+            <Box className={clsx("p-1 border-b-[0.5px] border-black")}>
               <SmallText text={info.title} typeface="mono" />
             </Box>
             <Box className="p-1">

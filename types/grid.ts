@@ -35,6 +35,28 @@ export const GAP_CLASSNAME = {
   64: "gap-64",
 } as const;
 
+export const RESPONSIVE_GAP_CLASSNAME = {
+  0: { tablet: "md:gap-0", desktop: "lg:gap-0" },
+  1: { tablet: "md:gap-1", desktop: "lg:gap-1" },
+  2: { tablet: "md:gap-2", desktop: "lg:gap-2" },
+  2.5: { tablet: "md:gap-2.5", desktop: "lg:gap-2.5" },
+  3: { tablet: "md:gap-3", desktop: "lg:gap-3" },
+  4: { tablet: "md:gap-4", desktop: "lg:gap-4" },
+  5: { tablet: "md:gap-5", desktop: "lg:gap-5" },
+  6: { tablet: "md:gap-6", desktop: "lg:gap-6" },
+  8: { tablet: "md:gap-8", desktop: "lg:gap-8" },
+  10: { tablet: "md:gap-10", desktop: "lg:gap-10" },
+  12: { tablet: "md:gap-12", desktop: "lg:gap-12" },
+  16: { tablet: "md:gap-16", desktop: "lg:gap-16" },
+  20: { tablet: "md:gap-20", desktop: "lg:gap-20" },
+  24: { tablet: "md:gap-24", desktop: "lg:gap-24" },
+  32: { tablet: "md:gap-32", desktop: "lg:gap-32" },
+  40: { tablet: "md:gap-40", desktop: "lg:gap-40" },
+  48: { tablet: "md:gap-48", desktop: "lg:gap-48" },
+  56: { tablet: "md:gap-56", desktop: "lg:gap-56" },
+  64: { tablet: "md:gap-64", desktop: "lg:gap-64" },
+} as const;
+
 export const COLSPAN_CLASSNAME = {
   1: "col-span-1",
   2: "col-span-2",

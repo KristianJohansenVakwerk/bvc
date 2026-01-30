@@ -16,8 +16,9 @@ const ProductsSection = (props: Props) => {
         cols={1}
         colsTablet={2}
         colsDesktop={4}
-        gap={2.5}
-        className="grid-cols-[repeat(12,minmax(75vw,1fr))] md:grid-cols-2 lg:grid-cols-4 overflow-x-auto md:overflow-visible w-full scrollbar-hide pl-2 md:pl-0"
+        gap={1}
+        gapDesktop={2.5}
+        className="grid-cols-[repeat(8,minmax(85vw,1fr))] md:grid-cols-2 lg:grid-cols-4 overflow-x-auto overflow-y-hidden md:overflow-y-visible md:overflow-visible w-full scrollbar-hide px-2 md:px-0"
       >
         {data.map((product, index) => (
           <GridItem key={index} colspan={1} className="flex flex-col gap-2.5">

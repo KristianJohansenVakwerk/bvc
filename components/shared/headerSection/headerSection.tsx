@@ -9,7 +9,7 @@ const HeaderSection = (props: Props) => {
   const { data } = props;
 
   return (
-    <Section className="w-full  px-2 md:px-0">
+    <Section className="w-full px-2 md:px-0">
       <Grid
         cols={4}
         colsTablet={4}
@@ -40,11 +40,11 @@ const HeaderSection = (props: Props) => {
         <GridItem
           colspan={4}
           colspanDesktop={2}
-          className="order-1 lg:order-3 flex items-center justify-center aspect-[16/9] lg:aspect-[390/400]"
+          className="order-1 lg:order-3 flex items-center justify-center  lg:aspect-[390/400]"
         >
           <Image
             src="/media/logo.svg"
-            className="w-full h-full object-contain object-center  mx-auto"
+            className="w-full h-auto object-contain object-center  max-h-[calc(100svh-140px)] md:max-h-none"
             alt="Logo"
           />
         </GridItem>

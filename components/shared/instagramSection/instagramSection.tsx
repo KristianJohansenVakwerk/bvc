@@ -8,7 +8,7 @@ const InstagramSection = (props: Props) => {
   const { data } = props;
 
   return (
-    <Section className="w-full">
+    <Section className="w-full px-2 md:px-0">
       <Link
         href={data.link}
         target="_blank"
