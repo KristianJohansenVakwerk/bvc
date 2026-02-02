@@ -14,7 +14,7 @@ const ProductInformationSection = (props: Props) => {
     <Section className="px-2 md:px-0">
       <Grid
         cols={1}
-        colsTablet={4}
+        colsTablet={2}
         colsDesktop={4}
         gap={0}
         className="border-l-[0.5px] border-b-[0.5px] border-black"

@@ -40,11 +40,11 @@ const HeaderSection = (props: Props) => {
         <GridItem
           colspan={4}
           colspanDesktop={2}
-          className="order-1 lg:order-3 flex items-center justify-center  lg:aspect-[390/400]"
+          className="order-1 lg:order-3 flex items-center justify-center "
         >
           <Image
             src="/media/logo.svg"
-            className="w-full h-auto object-contain object-center  max-h-[calc(100svh-140px)] md:max-h-none"
+            className="w-full h-auto object-contain object-center  max-h-[calc(100svh-140px)] lg:max-h-none lg:aspect-[390/400]"
             alt="Logo"
           />
         </GridItem>
