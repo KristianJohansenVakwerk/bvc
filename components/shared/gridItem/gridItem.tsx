@@ -10,6 +10,7 @@ type Props = {
   colspan3xl?: keyof typeof COLSPAN_CLASSNAME;
   colspan4xl?: keyof typeof COLSPAN_CLASSNAME;
   className?: string;
+  style?: React.CSSProperties;
   children: React.ReactNode;
   ref?: React.RefObject<HTMLDivElement | null>;
 };
@@ -24,6 +25,7 @@ const GridItem = (props: Props) => {
     colspan3xl,
     colspan4xl,
     className,
+    style,
     children,
     ref = null,
   } = props;
@@ -61,7 +63,7 @@ const GridItem = (props: Props) => {
   );
 
   return (
-    <div className={classes} ref={ref ?? undefined}>
+    <div className={classes} style={style} ref={ref ?? undefined}>
       {children}
     </div>
   );

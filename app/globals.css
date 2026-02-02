@@ -76,3 +76,18 @@ body {
 .debug {
   border: 1px solid red;
 }
+
+/* Mood section: arbitrary scale/origin/object-position from data via CSS vars (mobile = default, desktop = md) */
+.mood-image {
+  transform: scale(var(--mood-scale-mobile, 1));
+  transform-origin: var(--mood-origin-mobile, 50% 50%);
+  object-position: var(--mood-object-position-mobile, 50% 50%);
+}
+
+@media (min-width: 768px) {
+  .mood-image {
+    transform: scale(var(--mood-scale-desktop, 1));
+    transform-origin: var(--mood-origin-desktop, 50% 50%);
+    object-position: var(--mood-object-position-desktop, 50% 50%);
+  }
+}

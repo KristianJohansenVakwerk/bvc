@@ -21,6 +21,13 @@ export type RetailerLocation = {
   stores: string[];
 };
 
+export type MoodImage = {
+  src: string;
+  scale: { mobile: number; desktop: number };
+  origin: { mobile: string; desktop: string };
+  objectPosition?: { mobile: string; desktop: string };
+};
+
 export type Section =
   | {
       id: "header";
@@ -48,7 +55,7 @@ export type Section =
     }
   | {
       id: "mood";
-      data: string[];
+      data: { images: MoodImage[] };
     };
 
 export type Data = {

@@ -8,8 +8,6 @@ type Props = {
 const ProductsSection = (props: Props) => {
   const { data } = props;
 
-  console.log("dignd gon");
-
   return (
     <Section className="w-full">
       <Grid
@@ -18,10 +16,14 @@ const ProductsSection = (props: Props) => {
         colsDesktop={4}
         gap={1}
         gapDesktop={2.5}
-        className="grid-cols-[repeat(8,minmax(85vw,1fr))] md:grid-cols-2 lg:grid-cols-4 overflow-x-auto overflow-y-hidden md:overflow-y-visible md:overflow-visible w-full scrollbar-hide px-2 md:px-0"
+        className="grid-cols-[repeat(8,minmax(85vw,1fr))] md:grid-cols-2 lg:grid-cols-4 overflow-x-auto overflow-y-hidden md:overflow-y-visible md:overflow-visible w-full scrollbar-hide px-2 md:px-0 snap-x snap-mandatory md:snap-none"
       >
         {data.map((product, index) => (
-          <GridItem key={index} colspan={1} className="flex flex-col gap-2.5">
+          <GridItem
+            key={index}
+            colspan={1}
+            className="flex flex-col gap-2.5 snap-start"
+          >
             <Image
               src={product.imageSrc}
               className="w-full h-auto aspect-[390/400] mix-blend-multiply"

@@ -111,7 +111,28 @@
     },
     {
       "id": "mood",
-      "data": ["/media/mood_1.jpg", "/media/modd_2.jpg", "/media/mood_3.jpg"]
+      "data": {
+        "images": [
+          {
+            "src": "/media/BVC_Apples.webp",
+            "scale": { "mobile": 1.3, "desktop": 1.3 },
+            "origin": { "mobile": "100% 100%", "desktop": "100% 100%" },
+            "objectPosition": { "mobile": "50% 50%", "desktop": "50% 50%" }
+          },
+          {
+            "src": "/media/BVC_Fermentation.webp",
+            "scale": { "mobile": 1, "desktop": 1.1 },
+            "origin": { "mobile": "50% 50%", "desktop": "50% 50%" },
+            "objectPosition": { "mobile": "50% 50%", "desktop": "50% 50%" }
+          },
+          {
+            "src": "/media/BVC_Taragon.webp",
+            "scale": { "mobile": 1.7, "desktop": 1.7 },
+            "origin": { "mobile": "100% 63%", "desktop": "60% 10%" },
+            "objectPosition": { "mobile": "0% 100%", "desktop": "60% 10%" }
+          }
+        ]
+      }
     },
     {
       "id": "retailers",
