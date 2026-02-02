@@ -12,7 +12,7 @@ const InstagramSection = (props: Props) => {
       <Link
         href={data.link}
         target="_blank"
-        className="flex items-center gap-1 underline underline-offset-8 decoration-1"
+        className="flex items-center gap-1 underline underline-offset-6  md:underline-offset-8 decoration-1"
       >
         <Text
           text={data.text}
