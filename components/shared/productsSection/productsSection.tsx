@@ -23,7 +23,7 @@ const ProductsSection = (props: Props) => {
           <GridItem
             key={index}
             colspan={1}
-            className="flex flex-col gap-2.5 snap-start  pl-2 md:pl-0"
+            className="flex flex-col gap-2.5 snap-start pl-2 md:pl-0 last:mr-2 md:last:mr-0 "
           >
             <Image
               src={product.imageSrc}
