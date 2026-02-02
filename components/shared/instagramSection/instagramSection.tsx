@@ -14,7 +14,11 @@ const InstagramSection = (props: Props) => {
         target="_blank"
         className="flex items-center gap-1 underline underline-offset-8 decoration-1"
       >
-        <Text text={data.text} typeface="sans" />
+        <Text
+          text={data.text}
+          typeface="sans"
+          className="leading-2.5 md:leading-1"
+        />
       </Link>
     </Section>
   );
