@@ -30,7 +30,7 @@
           },
           {
             "title": "Tilmeld dig vores nyhedsbrev her",
-            "url": ""
+            "url": "http://eepurl.com/jyztQE"
           }
         ]
       ]
@@ -80,20 +80,13 @@
         }
       ]
     },
-    {
-      "id": "instagram",
-      "data": {
-        "text": "<p>Besøg vores Instagram for mere inspiration og opskrifter →</p>",
-        "link": "https://www.instagram.com/bornholmvinegarco/"
-      }
-    },
 
     {
       "id": "productInformation",
       "data": [
         {
           "title": "Inspiration & Opskrifter",
-          "text": "På vores Instagram kan du løbende finde inspirerende opskrifter baseret på vores forskellige eddiker. Opskrifterne giver konkrete idéer til brug i både salater, vinaigrette, saucer og sylteopskrifter. <br/><br/>@bornholmvinegarco"
+          "text": "På vores Instagram kan du løbende finde inspirerende opskrifter baseret på vores forskellige eddiker. Opskrifterne giver konkrete idéer til brug i både salater, vinaigrette, saucer og sylteopskrifter. <br/><br/><a href=\"https://www.instagram.com/bornholmvinegarco/\" target=\"_blank\">@bornholmvinegarco</a>"
         },
         {
           "title": "Lokale råvarer",
