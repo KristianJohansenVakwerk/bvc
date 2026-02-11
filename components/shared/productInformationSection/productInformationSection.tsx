@@ -28,7 +28,7 @@ const ProductInformationSection = (props: Props) => {
             <Box className={clsx("p-1 border-b-[0.5px] border-black")}>
               <SmallText text={info.title} typeface="mono" />
             </Box>
-            <Box className="p-1">
+            <Box className="p-1 [&_a]:hover:underline">
               <SmallText text={info.text} typeface="mono" />
             </Box>
           </GridItem>
