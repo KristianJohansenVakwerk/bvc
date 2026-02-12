@@ -133,30 +133,41 @@
         {
           "location": "Bornholm:",
           "stores": [
-            "Årsdale Røgeri",
-            "Norresan, Gudhjem",
-            "Stigs Oliven, Rønne",
-            "Flor, Svaneke",
-            "Hjørnet, Svaneke",
-            "Dram & Dialekt, Svaneke",
-            "Fru Due, Snogebæk",
-            "Strandhotellet, Sandvig"
+            "<a href=\"https://www.aarsdalerogeri.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Årsdale Røgeri</a>",
+            "<a href=\"https://norresan.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Norresan, Gudhjem</a>",
+            "<a href=\"https://www.stigsoliven.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Stigs Oliven, Rønne</a>",
+            "<a href=\"https://flordeli.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Flor, Svaneke</a>",
+            "<a href=\"https://www.hjornet.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Hjørnet, Svaneke</a>",
+            "<a href=\"https://instagram.com/dramogdialekt\" target=\"_blank\" rel=\"noopener noreferrer\">Dram & Dialekt, Svaneke</a>",
+            "<a href=\"https://frudue.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Fru Due, Snogebæk</a>",
+            "<a href=\"https://www.strandhotellet.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Strandhotellet, Sandvig</a>"
           ]
         },
         {
           "location": "København:",
-          "stores": ["Nørrebro Kolonial", "Blomst & Bi", "Refillery Copenhagen"]
+          "stores": [
+            "<a href=\"https://www.noerrebrokolonial.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Nørrebro Kolonial</a>",
+            "<a href=\"http://blomstbi.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blomst & Bi</a>",
+            "<a href=\"https://instagram.com/refillerycph\" target=\"_blank\" rel=\"noopener noreferrer\">Refillery Copenhagen</a>"
+          ]
         },
         {
           "location": "Sjælland:",
-          "stores": ["Elkjær-Posch, Rørvig"]
+          "stores": [
+            "<a href=\"https://www.elkjaerposch.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Elkjær-Posch, Rørvig</a>"
+          ]
         },
         {
           "location": "Øvrige:",
           "stores": [
-            "<a href=\"https://enlillebidafbornholm.dk\" target=\"_blank\">enlillebidafbornholm.dk</a>",
-            "<a href=\"https://bornholmbornholmbornholm.dk\" target=\"_blank\">bornholmbornholmbornholm.dk</a>",
-            "<br/>B2B: <br/>Ingwersen"
+            "<a href=\"https://enlillebidafbornholm.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Enlillebidafbornholm.dk</a>",
+            "<a href=\"https://bornholmbornholmbornholm.dk/da/\" target=\"_blank\" rel=\"noopener noreferrer\">Bornholmbornholmbornholm.dk</a>"
+          ]
+        },
+        {
+          "location": "B2B:",
+          "stores": [
+            "<a href=\"https://www.ingwersen.dk/\" target=\"_blank\" rel=\"noopener noreferrer\">Ingwersen</a>"
           ]
         }
       ]
