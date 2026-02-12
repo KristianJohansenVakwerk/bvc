@@ -41,42 +41,42 @@
         {
           "name": "Pærecidereddike",
           "text": "Vores pærecidereddike er lavet på Conference- eller Charneux-pærer. Pærerne mostes og gæres til pærecider på tank. Anden fermentering og lagring (>2 år) sker på fade, der tidligere har indeholdt Calvados. Ideel til vinaigrette, drinks og hjemmelavet gastrik.",
-          "imageSrc": "/media/BVC_Pærecidereddike.webp"
+          "imageSrc": "/media/BVC_Pærecidereddike_final.webp"
         },
         {
           "name": "Gastrik",
           "text": "Vores prisvindende gastrik er en blanding af æblecidereddike, blommesaft, slåenbær og karamel, som giver en kompleks syre med en smule tørhed fra de tanninrige slåenbær. Et lokalt alternativ til klassisk balsamico. God til vinaigrette, marinader og som smagsgiver i saucer.",
-          "imageSrc": "/media/BVC_Gastrik.webp"
+          "imageSrc": "/media/BVC_Gastrik_final.webp"
         },
         {
           "name": "Hybenroseeddike",
           "text": "Vores pærecidereddike infuseret med masser af hybenroser. Intet andet. Dufter som en varm sommeraften langs kysten på Bornholm. Særdeles velegnet til sarte serveringer som rå østers, ceviche og salater, men også fantastisk i vinaigrette og drinks.",
-          "imageSrc": "/media/BVC_Hybenroseeddike.webp"
+          "imageSrc": "/media/BVC_Hybenroseeddike_final.webp"
         },
         {
           "name": "Æblecidereddike",
           "text": "Vores æblecidereddike er fremstillet på danske æbler. Æblerne presses til æblemost og spontangæres på tank. Anden fermentering samt lagring (>3 år) foregår på klassiske barriques, hvilket afrunder smagen og tilføjer dybde. Denne eddike er perfekt til vinaigrette, marinader, varme retter og syltning.",
-          "imageSrc": "/media/BVC_Æblecidereddike.webp"
+          "imageSrc": "/media/BVC_Æblecidereddike_final.webp"
         },
         {
           "name": "Hyldeblomsteddike",
           "text": "Denne eddike er fremstillet af hyldeblomstvin, som efter anden gæring på tank infuseres med friske hyldeblomster fra den bornholmske natur. Resultatet er en intens hyldeblomsteddike med masser af sommerlig aroma. Brug den i stedet for citronsaft – i mayonnaise, vinaigrette, limonade og desserter.",
-          "imageSrc": "/media/BVC_Hyldeblomsteddike.webp"
+          "imageSrc": "/media/BVC_Hyldeblomsteddike_final.webp"
         },
         {
           "name": "Kombueddike",
           "text": "Denne eddike er baseret på vores pærecidereddike, som infuseres med ristet, japansk kombutang. Dette resulterer i en rig, umamifyldt eddike med masser af aroma, karakter og kompleksitet. Fantastisk i asiatiske retter, til fisk og skaldyr samt i vinaigrette.",
-          "imageSrc": "/media/BVC_Kombueddike.webp"
+          "imageSrc": "/media/BVC_Kombueddike_final.webp"
         },
         {
           "name": "Estragoneddike — BVC × Flor",
           "text": "Vores klassiske pærecidereddike infuseret med frisk bornholmsk estragon. Klar og aromatisk med en let sødlig estragonsmag. Særligt velegnet til retter med fedme, friske grøntsager og klassisk bearnaise. Denne specialeddike er udviklet i samarbejde med Flor Deli i Svaneke.",
-          "imageSrc": "/media/BVC_Estragoneddike.webp"
+          "imageSrc": "/media/BVC_Estragoneddike_final.webp"
         },
         {
           "name": "Krondildeddike — BVC × Flor",
           "text": "Vores klassiske pærecidereddike infuseret med nyudsprunget krondild. Frisk og floral med en let anisagtig dildnote. Velegnet til fisk, skaldyr og cremede saucer. Denne specialeddike er udviklet i samarbejde med Flor Deli i Svaneke.",
-          "imageSrc": "/media/BVC_Krondildeddike.webp"
+          "imageSrc": "/media/BVC_Krondildeddike_final.webp"
         }
       ]
     },

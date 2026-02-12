@@ -27,7 +27,7 @@ const ProductsSection = (props: Props) => {
           >
             <Image
               src={product.imageSrc}
-              className="w-full h-auto aspect-[390/400] mix-blend-multiply"
+              className="w-full h-auto aspect-[390/400] "
               alt={product.name}
             />
             <Text text={product.name} typeface="sans" className="tracking-3" />
