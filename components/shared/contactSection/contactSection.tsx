@@ -1,30 +1,37 @@
 "use client";
 import { Box, Link, Section, Text } from "@/components";
 import type { ContactItem, ContactSectionData } from "@/types/data";
-import clsx from "clsx";
-
 
 type Props = {
   data: ContactSectionData;
 };
 
+const itemClasses = "flex items-center p-1.5 tracking-2 w-full ";
+
 const renderItem = (item: ContactItem) => {
   const hasLink = !!item.url;
 
-  const classes = clsx("flex items-center p-1 tracking-2");
-
   if (!hasLink)
     return (
-      <Text text={item.title} typeface="mono" className={classes} size="sm" />
+      <span className={itemClasses}>
+        <Text
+          text={item.title}
+          typeface="mono"
+          size="sm"
+          className="tracking-2"
+          as="span"
+        />
+      </span>
     );
 
   return (
-       <Link href={item.url as string} target="_blank" className={clsx(classes, "block w-full h-full")}>
+    <Link href={item.url as string} target="_blank" className={itemClasses}>
       <Text
         text={item.title}
         typeface="mono"
         size="sm"
         className="tracking-2"
+        as="span"
       />
     </Link>
   );
@@ -52,7 +59,6 @@ const ContactSection = (props: Props) => {
             <Box
               key={index}
               className="flex border-b-[0.5px] last:border-b-0 md:border-b-0 md:border-r-[0.5px] last:md:border-r-0 border-black w-full md:w-auto flex-auto"
-              
             >
               {renderItem(item)}
             </Box>
