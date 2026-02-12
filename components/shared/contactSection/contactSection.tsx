@@ -1,7 +1,8 @@
+"use client";
 import { Box, Link, Section, Text } from "@/components";
 import type { ContactItem, ContactSectionData } from "@/types/data";
 import clsx from "clsx";
-import React from "react";
+
 
 type Props = {
   data: ContactSectionData;
@@ -18,7 +19,7 @@ const renderItem = (item: ContactItem) => {
     );
 
   return (
-    <Link href={item.url as string} target="_blank" className={classes}>
+       <Link href={item.url as string} target="_blank" className={clsx(classes, "block w-full h-full")}>
       <Text
         text={item.title}
         typeface="mono"
@@ -40,7 +41,7 @@ const ContactSection = (props: Props) => {
           {groupA.map((item, index) => (
             <Box
               key={index}
-              className="border-b-[0.5px] md:border-b-0 md:border-r-[0.5px] border-black w-full md:w-auto flex-auto"
+              className=" flex border-b-[0.5px] md:border-b-0 md:border-r-[0.5px] border-black w-full md:w-auto flex-auto"
             >
               {renderItem(item)}
             </Box>
@@ -50,7 +51,8 @@ const ContactSection = (props: Props) => {
           {groupB.map((item, index) => (
             <Box
               key={index}
-              className="border-b-[0.5px] last:border-b-0 md:border-b-0 md:border-r-[0.5px] last:md:border-r-0 border-black w-full md:w-auto flex-auto"
+              className="flex border-b-[0.5px] last:border-b-0 md:border-b-0 md:border-r-[0.5px] last:md:border-r-0 border-black w-full md:w-auto flex-auto"
+              
             >
               {renderItem(item)}
             </Box>
